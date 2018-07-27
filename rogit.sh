@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo Harás un commit y un push de todos los archivos
 read -p 'Rama: ' rama
 read -p 'Mensaje significativo: ' msg
 echo  Harás push a $rama con el mensaje $msg
