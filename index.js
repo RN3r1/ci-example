@@ -4,6 +4,8 @@ let divide = require('./divideTwoNumbers');
 let multiply = require('./multiplyTwoNumbers');
 let _ = require('lodash');
 
+console.log('Inicia las pruebas');
+
 let numbers = _.range(1, 10);
 numbers.map((number, index)=>{
 
@@ -19,8 +21,5 @@ numbers.map((number, index)=>{
     console.log(`${number}/${index}=${divideResult}`);
     console.log('*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*');
     console.log();
-    
-    
-    
 
 });
