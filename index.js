@@ -4,7 +4,7 @@ let divide = require('./divideTwoNumbers');
 let multiply = require('./multiplyTwoNumbers');
 let _ = require('lodash');
 
-console.log('Acabé el archivo completo');
+console.log('Acabé el archivo completo y makanaza odia a la gente');
 
 let numbers = _.range(1, 10);
 numbers.map((number, index)=>{
