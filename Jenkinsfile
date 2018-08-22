@@ -23,8 +23,6 @@ pipeline {
     stage('Deliver') {
       steps {
         sh 'npm start'
-        input 'Finished using the web site? (Click "Proceed" to continue)'
-        sh 'echo vas bien'
       }
     }
   }
